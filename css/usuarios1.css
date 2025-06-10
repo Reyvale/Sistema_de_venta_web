@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c0bfbf;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.form-usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.form-usuario input,
+.form-usuario select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-usuario button {
+    padding: 12px;
+    font-size: 14px;
+    background-color: #313632;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 60%;
+    align-self: center;
+}
+
+.form-usuario button:hover {
+    background-color: #20d638;
+}
+
+.tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-usuarios th, .tabla-usuarios td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-usuarios th {
+    background-color: #000000;
+    color: white;
+}
+
+.tabla-usuarios tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-usuarios tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-regresar {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-regresar:hover {
+    background-color: #20d638;
+}
